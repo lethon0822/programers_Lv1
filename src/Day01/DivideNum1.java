@@ -5,7 +5,6 @@ public class DivideNum1 {
     public int solution(int n) {
         int result;
         int i = 2;
-
         while (true) {
             if (n % i == 1){
                 result = i;
@@ -13,7 +12,6 @@ public class DivideNum1 {
             }
             i++;
         }
-
         return result;
     }
 }
